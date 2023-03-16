@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 80%;
+    height: 84%;
+    border: 2px solid gray;
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title{
+    text-align: center;
+}
+
+#churrasco{
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    animation: churrasco 4s ease 0s 1 forwards;
+}
+
+#strogonoff{
+    width: 70%;
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    animation: strogonoff 4s ease 0s 1 forwards;
+}
+
+#empadao{
+    width: 68%;
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    animation: empadao 4s ease 0s 1 forwards;
+}
+
+#lasanha{
+    width: 50%;
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    animation: lasanha 4s ease 0s 1 forwards;
+}
+
+#jilo{
+    width: 20%;
+    height: 80px;
+    border: 1px solid black;
+    animation: jilo 4s ease 0s 1 forwards;
+}
+
+@keyframes churrasco{
+    0%{width: 0; background-color: blue;}
+    100%{width: 80%; background-color: yellow;}
+}
+
+@keyframes strogonoff{
+    0%{width: 0; background-color: blue;}
+    100%{width: 70%; background-color: yellow;}
+}
+
+@keyframes empadao{
+    0%{width: 0; background-color: blue;}
+    100%{width: 68%; background-color: yellow;}
+}
+
+@keyframes lasanha{
+    0%{width: 0; background-color: blue;}
+    100%{width: 50%; background-color: yellow;}
+}
+
+@keyframes jilo{
+    0%{width: 0; background-color: blue;}
+    100%{width: 20%; background-color: yellow;}
+}
+
+.left{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.right{
+    float: right;
+    margin-top: 30px;
+    margin-right:20px;
+}
